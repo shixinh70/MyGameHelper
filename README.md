@@ -25,5 +25,5 @@ Usage: screenshoper <Window_name> <Rate>
    The training data will be move to yolov4-tiny folder
 8. Run the [yoloconfig.py](./labelimgszipper.py) to set up the YOLO configuration.
 9. Upload the yolov4-tiny folder onto the Goole Drive.
-10. Traing the model with this [Colab notebook](https://colab.research.google.com/drive/1GacwLZuQrk2dDTuvxuGX3Tn5i8Z4X13c#scrollTo=UcHcVVfHRqx5)
-11. 
+10. Training model with this [Colab notebook](https://colab.research.google.com/drive/1GacwLZuQrk2dDTuvxuGX3Tn5i8Z4X13c#scrollTo=UcHcVVfHRqx5)
+11. Download the model weight and move to the ./YOLO-Game-Helper folder
