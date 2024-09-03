@@ -21,9 +21,9 @@ Usage: screenshoper <Window_name> <Rate>
    The shuffled screenshop will store in the ./shuffle_images directory
 4. Label the images. For example [Makesense.ai](https://www.makesense.ai/)
 5. Copy the images and label into the folder ./shuffle_images
-6. Run the [labelimgszipper.py])(./labelimgszipper.py) zip the final training data.
+6. Run the [labelimgszipper.py](./labelimgszipper.py) zip the final training data.
    The training data will be move to yolov4-tiny folder
-8. Run the [yoloconfig.py] (./labelimgszipper.py) to set up the YOLO configuration.
+8. Run the [yoloconfig.py](./labelimgszipper.py) to set up the YOLO configuration.
 9. Upload the yolov4-tiny folder onto the Goole Drive.
 10. Traing the model with this [Colab notebook](https://colab.research.google.com/drive/1GacwLZuQrk2dDTuvxuGX3Tn5i8Z4X13c#scrollTo=UcHcVVfHRqx5)
 11. 
