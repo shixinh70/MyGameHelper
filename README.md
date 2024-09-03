@@ -37,5 +37,5 @@ Usage: screenshoper <Window_name> <Rate>
 1. Modify the [automation.py](./automation.py) to fit your own game automation logic,
    and set the window_name to your game.
 2. Run the [automation.py](./automation.py)
-   Your can start and pause the bot thread by pressing the 's' and 'p'.
+   Your can start and pause the bot thread by pressing the 's' and 'p'.  
    Or quit the automation program by pressing the 'q'.
