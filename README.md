@@ -11,5 +11,5 @@ pywin32, numpy ,Pillow ,opencv-python, pynput
 pip install pywin32 numpy Pillow opencv-python pynput
 ```
 ### Train your custom YOLO model
-1. Run the [screenshoper](./screenshoper)
+1. Run the [screenshoper](./screenshoper.py)
 
