@@ -1,7 +1,11 @@
 # YOLO Game helper
 This is a game assistant project based on object detection. It first captures images using OpenCV and then performs object detection with YOLOv4-tiny. After that, it uses pynput to carry out some in-game operations.
 ## Dependancy
-pywin32, numpy ,Pillow ,opencv-python, pynput
+pywin32
+numpy
+Pillow
+opencv-python
+pynput
 
 ## How to start
 ### Installation
@@ -33,5 +37,7 @@ Usage: screenshoper <Window_name> <Rate>
 1. Modify the [automation.py](./automation.py) to fit your own game automation logic,
    and set the window_name to your game.
 2. Run the [automation.py](./automation.py)
+
    Your can start and pause the bot thread by pressing the 's' and 'p'.
+
    Or quit the automation program by pressing the 'q'.
