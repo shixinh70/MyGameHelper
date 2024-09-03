@@ -11,8 +11,13 @@ pywin32, numpy ,Pillow ,opencv-python, pynput
 pip install pywin32 numpy Pillow opencv-python pynput
 ```
 ### Train your custom YOLO model
-1. Run the [screenshoper](./screenshoper.py) script to start gathering window screenshop.
+#### Create training data set
+1. Run the [shuffleimg.py](./screenshoper.py) script to start gathering window screenshop.
+   The screenshop will store in the ./images directory
 ```
 Usage: screenshoper <Window_name> <Rate>
 ```
-
+2. Shuffle the screenshop images by running [shuffleimg.py](./shuffleimg.py)
+   The shuffled screenshop will store in the ./shuffleimages directory
+4. Label the images. For example [Makesense.ai](https://www.makesense.ai/)
+5. Copy the 
